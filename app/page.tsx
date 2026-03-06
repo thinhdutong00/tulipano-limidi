@@ -55,14 +55,51 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 3. SEZIONE DESCRIZIONE */}
-      <section className="py-20 container mx-auto px-4 text-center">
-        <div className="max-w-3xl mx-auto">
-          <h2 className="text-4xl font-serif mb-6 text-[#800020]">Cucina Tradizionale & Pizzeria</h2>
-          <p className="text-lg leading-relaxed text-gray-700">
-            La specialità del Tulipano è sicuramente la pizza in tutte le sue varietà, 
-            ma non mancano di certo le proposte a base di pesce e i piatti tradizionali emiliani.
-          </p>
+{/* 3. SEZIONE DESCRIZIONE (Esattamente come in foto) */}
+      <section className="py-20 container mx-auto px-4">
+        {/* Parte Superiore: Titolo e Testo affiancati */}
+        <div className="flex flex-col md:flex-row mb-12 items-start justify-between">
+          <div className="md:w-1/3">
+            <h2 className="text-5xl font-serif text-[#333333] leading-tight">
+              Ristorante<br />Pizzeria
+            </h2>
+          </div>
+          <div className="md:w-2/3 mt-6 md:mt-0 md:pl-12">
+            <p className="text-xl leading-relaxed text-gray-700 first-letter:text-5xl first-letter:font-bold first-letter:text-[#800020] first-letter:mr-3 first-letter:float-left">
+              La specialità del Tulipano è sicuramente la pizza in tutte le sue varietà, ma non
+              mancano di certo le proposte a base di pesce e i piatti tradizionali emiliani. A
+              pranzo inoltre potrete sperimentare il nostro menù del giorno, perfetto per chi ha una
+              pausa pranzo breve ma che non vuole rinunciare al gusto del buon cibo.
+            </p>
+          </div>
+        </div>
+
+        {/* Parte Inferiore: Griglia di 3 Immagini */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="relative h-80 w-full overflow-hidden shadow-sm">
+            <Image 
+              src="/staff1.png" 
+              alt="Pasta" 
+              fill 
+              className="object-cover hover:scale-105 transition-transform duration-500" 
+            />
+          </div>
+          <div className="relative h-80 w-full overflow-hidden shadow-sm">
+            <Image 
+              src="/staff2.png" 
+              alt="Pizza" 
+              fill 
+              className="object-cover hover:scale-105 transition-transform duration-500" 
+            />
+          </div>
+          <div className="relative h-80 w-full overflow-hidden shadow-sm">
+            <Image 
+              src="/staff3.png" 
+              alt="Carne" 
+              fill 
+              className="object-cover hover:scale-105 transition-transform duration-500" 
+            />
+          </div>
         </div>
       </section>
 
