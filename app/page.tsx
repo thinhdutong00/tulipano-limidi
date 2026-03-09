@@ -256,46 +256,65 @@ export default function Home() {
 </section>
 
 
-{/* 6. FOOTER GLASS STYLE - Versione più chiara */}
-      <footer className="relative z-10 bg-[#222222]/60 backdrop-blur-lg py-16 text-gray-300 border-t border-white/10">
-        <div className="container mx-auto px-4 grid md:grid-cols-3 gap-12 relative z-10">
-          
-          <div className="flex flex-col space-y-4">
-            <h4 className="text-[#E5B54F] font-serif text-xl tracking-widest uppercase">Dove Siamo</h4>
-            <div className="space-y-1">
-              <p className="text-white text-lg font-medium">Via A. Moro Interna, 1R</p>
-              <p className="text-gray-400">41012 Carpi (MO)</p>
-            </div>
-            <p className="text-[#800020] font-bold text-xs tracking-widest cursor-pointer hover:text-white transition mt-2">
-              VAI ALLE INDICAZIONI →
-            </p>
-          </div>
-
-          <div className="flex flex-col space-y-4">
-            <h4 className="text-[#E5B54F] font-serif text-xl tracking-widest uppercase">Orari</h4>
-            <div className="space-y-2">
-              <p className="flex justify-between border-b border-white/5 pb-1 text-sm">
-                <span>Pranzo:</span> <span className="text-white">12:00 / 15:00</span>
-              </p>
-              <p className="flex justify-between border-b border-white/5 pb-1 text-sm">
-                <span>Cena:</span> <span className="text-white">18:00 / 00:00</span>
+{/* 6. FOOTER BI-COLORE (BIANCO + NERO) */}
+      <footer className="relative z-10 w-full mt-20">
+        
+        {/* PARTE SUPERIORE: INFORMAZIONI (SFONDO BIANCO) */}
+        <div className="bg-white py-16 text-[#333333] border-t border-gray-100">
+          <div className="container mx-auto px-4 grid md:grid-cols-3 gap-12">
+            
+            {/* Colonna: DOVE SIAMO */}
+            <div className="flex flex-col space-y-4">
+              <h4 className="text-[#800020] font-serif text-xl tracking-widest uppercase border-b border-[#800020]/10 pb-2">
+                Dove Siamo
+              </h4>
+              <div className="space-y-1">
+                <p className="text-lg font-bold">Via A. Moro Interna, 1R</p>
+                <p className="text-gray-500">41012 Carpi (MO)</p>
+              </div>
+              <p className="text-[#800020] font-bold text-xs tracking-widest cursor-pointer hover:underline mt-2">
+                VAI ALLE INDICAZIONI →
               </p>
             </div>
-          </div>
 
-          <div className="flex flex-col space-y-4">
-            <h4 className="text-[#E5B54F] font-serif text-xl tracking-widest uppercase">Contatti</h4>
-            <p className="text-xs text-gray-500">Enjoy SRL - P. IVA 03831040369</p>
-            <div className="flex gap-4">
-               <div className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-[#800020] transition-all cursor-pointer text-xs">FB</div>
-               <div className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center hover:bg-[#800020] transition-all cursor-pointer text-xs">IG</div>
+            {/* Colonna: ORARI */}
+            <div className="flex flex-col space-y-4">
+              <h4 className="text-[#800020] font-serif text-xl tracking-widest uppercase border-b border-[#800020]/10 pb-2">
+                Orari
+              </h4>
+              <div className="space-y-2 text-sm">
+                <p className="flex justify-between border-b border-gray-100 pb-1">
+                  <span className="font-medium">Pranzo:</span> <span>12:00 / 15:00</span>
+                </p>
+                <p className="flex justify-between border-b border-gray-100 pb-1">
+                  <span className="font-medium">Cena:</span> <span>18:00 / 00:00</span>
+                </p>
+                <p className="text-gray-400 italic text-xs mt-2 text-center">Aperto tutti i giorni</p>
+              </div>
             </div>
+
+            {/* Colonna: CONTATTI */}
+            <div className="flex flex-col space-y-4">
+              <h4 className="text-[#800020] font-serif text-xl tracking-widest uppercase border-b border-[#800020]/10 pb-2">
+                Contatti
+              </h4>
+              <p className="text-xs text-gray-400">Enjoy SRL - P. IVA 03831040369</p>
+              <div className="flex gap-4">
+                 <div className="w-10 h-10 rounded-full bg-[#800020] text-white flex items-center justify-center hover:bg-[#600018] transition-all cursor-pointer text-xs font-bold shadow-md">FB</div>
+                 <div className="w-10 h-10 rounded-full bg-[#800020] text-white flex items-center justify-center hover:bg-[#600018] transition-all cursor-pointer text-xs font-bold shadow-md">IG</div>
+              </div>
+            </div>
+
           </div>
         </div>
 
-        <div className="text-center mt-16 text-[10px] uppercase tracking-[0.4em] text-gray-600">
-          © {new Date().getFullYear()} Il Tulipano — Excellence in Carpi
+        {/* PARTE INFERIORE: COPYRIGHT (SFONDO NERO) */}
+        <div className="bg-black py-6 text-center">
+          <p className="text-[10px] uppercase tracking-[0.4em] text-white/60">
+            © {new Date().getFullYear()} Il Tulipano — Excellence in Carpi — Developed with Next.js
+          </p>
         </div>
+
       </footer>
     </main>
   );
