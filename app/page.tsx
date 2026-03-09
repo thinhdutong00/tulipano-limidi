@@ -257,10 +257,11 @@ export default function Home() {
 
 
 {/* 6. FOOTER BI-COLORE (BIANCO + NERO) */}
-      <footer className="relative z-10 w-full mt-20">
+      <footer className="relative z-10 w-full m-0 p-0 border-none">
         
         {/* PARTE SUPERIORE: INFORMAZIONI (SFONDO BIANCO) */}
-        <div className="bg-white py-16 text-[#333333] border-t border-gray-100">
+        {/* Rimosso border-t e mt-20 per eliminare linea e spazio */}
+        <div className="bg-white py-16 text-[#333333]">
           <div className="container mx-auto px-4 grid md:grid-cols-3 gap-12">
             
             {/* Colonna: DOVE SIAMO */}
@@ -289,7 +290,6 @@ export default function Home() {
                 <p className="flex justify-between border-b border-gray-100 pb-1">
                   <span className="font-medium">Cena:</span> <span>18:00 / 00:00</span>
                 </p>
-                <p className="text-gray-400 italic text-xs mt-2 text-center">Aperto tutti i giorni</p>
               </div>
             </div>
 
