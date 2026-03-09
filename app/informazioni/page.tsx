@@ -146,6 +146,99 @@ export default function InformazioniPage() {
         </div>
       </section>
 
+
+{/* 4. SEZIONE: ALTRI NOSTRI LOCALI */}
+      <section className="py-24 bg-white">
+        <div className="container mx-auto px-4 max-w-6xl">
+          <h2 className="text-5xl font-bold text-[#333333] mb-20 tracking-tight">
+            Altri nostri locali
+          </h2>
+
+          <div className="space-y-24">
+            
+            {/* Locale 1: Vecchia Limidi */}
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div className="space-y-6">
+                <h3 className="text-4xl font-bold text-[#333333]">Il Tulipano Vecchia Limidi</h3>
+                <div className="space-y-3 text-gray-600">
+                  <p className="flex items-center gap-3">
+                    <span className="text-[#800020]">📍</span> Via Limidi 1087 - 41019 Soliera (MO) - 
+                    <Link href="#" className="underline ml-1">Vai alle indicazioni stradali</Link>
+                  </p>
+                  <p className="flex items-center gap-3">
+                    <span className="text-[#800020]">📞</span> Numero di telefono - 059 566708
+                  </p>
+                  <p className="flex items-center gap-3">
+                    <span className="text-[#800020]">📶</span> Accesso libero al Wifi
+                  </p>
+                </div>
+                <div className="flex items-center gap-4 pt-4">
+                  <div className="flex gap-2">
+                    <div className="w-10 h-10 bg-[#3b5998] rounded flex items-center justify-center text-white">FB</div>
+                    <div className="w-10 h-10 bg-[#e4405f] rounded flex items-center justify-center text-white">IG</div>
+                  </div>
+                  <Link href="https://iltulipanovecchialimidi.it" target="_blank">
+                    <button className="bg-[#800020] hover:bg-[#600018] text-white px-8 py-3 rounded font-medium flex items-center gap-2 transition-colors">
+                      Vai al Sito Web <span className="text-lg">›</span>
+                    </button>
+                  </Link>
+                </div>
+              </div>
+              <div className="relative h-[350px] rounded-sm overflow-hidden shadow-lg">
+                <Image 
+                  src="/tulipanocarpi-interno-1.webp" // Sostituisci con l'immagine corretta se disponibile
+                  alt="Il Tulipano Vecchia Limidi"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            </div>
+
+            {/* Locale 2: Fossoli */}
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div className="space-y-6 md:order-1">
+                <h3 className="text-4xl font-bold text-[#333333]">Il Tulipano - Fossoli</h3>
+                <div className="space-y-3 text-gray-600">
+                  <p className="flex items-center gap-3">
+                    <span className="text-[#800020]">📍</span> Via Mare Adriatico 30 - 41012 Carpi (MO) - 
+                    <Link href="#" className="underline ml-1">Vai alle indicazioni stradali</Link>
+                  </p>
+                  <p className="flex items-center gap-3">
+                    <span className="text-[#800020]">📞</span> Numero di telefono - 059 867 8400
+                  </p>
+                  <p className="flex items-center gap-3">
+                    <span className="text-[#800020]">📶</span> Accesso libero al Wifi
+                  </p>
+                </div>
+                <div className="flex items-center gap-4 pt-4">
+                  <div className="flex gap-2">
+                    <div className="w-10 h-10 bg-[#3b5998] rounded flex items-center justify-center text-white">FB</div>
+                    <div className="w-10 h-10 bg-[#e4405f] rounded flex items-center justify-center text-white">IG</div>
+                  </div>
+                  <Link href="https://iltulipanofossoli.it" target="_blank">
+                    <button className="bg-[#800020] hover:bg-[#600018] text-white px-8 py-3 rounded font-medium flex items-center gap-2 transition-colors">
+                      Vai al Sito Web <span className="text-lg">›</span>
+                    </button>
+                  </Link>
+                </div>
+              </div>
+              {/* Collage di immagini per Fossoli */}
+              <div className="relative h-[350px] md:order-2 grid grid-cols-2 gap-2">
+                <div className="relative h-full">
+                   <Image src="/pizza-acciughe.webp" alt="Pizza Fossoli" fill className="object-cover rounded-sm" />
+                </div>
+                <div className="grid grid-rows-2 gap-2">
+                   <div className="relative"><Image src="/piatto-di-pasta-gambero.webp" alt="Pasta Fossoli" fill className="object-cover rounded-sm" /></div>
+                   <div className="relative"><Image src="/filetto-rucola.webp" alt="Carne Fossoli" fill className="object-cover rounded-sm" /></div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
       {/* 4. FOOTER */}
       <footer className="bg-white py-20 px-4 text-[#333333]">
         <div className="container mx-auto max-w-6xl grid md:grid-cols-3 gap-12 text-sm uppercase tracking-widest">
