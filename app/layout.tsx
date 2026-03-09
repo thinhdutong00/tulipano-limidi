@@ -79,9 +79,13 @@ export default function RootLayout({
                 )}
               </div>
 
-              {/* --- VOCE GALLERIA AGGIUNTA COME PRINCIPALE --- */}
               <Link href="/galleria" className="hover:text-[#E5B54F] transition">
                 Galleria
+              </Link>
+
+              {/* --- VOCE CONTATTI AGGIUNTA QUI --- */}
+              <Link href="/contatti" className="hover:text-[#E5B54F] transition">
+                Contatti
               </Link>
 
               {/* Tasto Prenota */}
