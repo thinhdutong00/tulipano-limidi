@@ -212,19 +212,26 @@ export default function Home() {
       </section>
 
 
-{/* 5.5 SEZIONE CTA PRENOTAZIONE CON PIZZA A DESTRA */}
+{/* 5.5 SEZIONE CTA PRENOTAZIONE CON PIZZA RIDOTTA A DESTRA */}
+      {/* Manteniamo overflow-visible per permettere alla pizza di sbordare */}
       <section className="relative py-20 bg-[#6D1919] text-center px-4 overflow-visible">
-        {/* Immagine Pizza Footer a destra - Sborda verso il basso */}
-        <div className="absolute right-0 bottom-[-100px] z-30 hidden lg:block w-[400px] h-[400px]">
+        
+        {/* Immagine Pizza Footer a destra - Ridotta e riposizionata */}
+        {/* 1. Ridotta la larghezza a 300px (w-[300px]) per l'immagine.
+          2. Regolato bottom-[-60px] per un effetto sovrapposizione più sottile.
+          3. hidden lg:block: appare solo su schermi grandi.
+        */}
+        <div className="absolute right-0 bottom-[-60px] z-30 hidden lg:block w-[300px] h-auto">
           <Image 
             src="/pizzafooter.webp" 
-            alt="Pizza dettaglio" 
-            width={400}
-            height={400}
+            alt="Dettaglio Pizza" 
+            width={300} // Dimensioni fisiche dell'immagine ridotte
+            height={300} // Altezza proporzionale
             className="object-contain"
           />
         </div>
 
+        {/* Contenuto CTA (Invariato) */}
         <div className="max-w-3xl mx-auto relative z-20">
           <h2 className="text-4xl md:text-5xl font-serif text-white mb-6 tracking-tighter border-b-2 border-white inline-block pb-2">
             Riserva un tavolo
