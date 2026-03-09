@@ -148,7 +148,7 @@ export default function Home() {
       </section>
 
 {/* 4. PREVIEW MENU */}
-      <section className="py-16 bg-[#1A1A1A] text-white">
+      <section className="py-16 bg-[#6D1919] text-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-serif text-center mb-12 text-[#D4AF37]">I Nostri Piatti</h2>
           
