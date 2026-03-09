@@ -40,16 +40,9 @@ export default function InformazioniPage() {
         </div>
       </section>
 
-      {/* 3. SEZIONE ARANCIONE: SPECIALITÀ, PRIVÈ E CATERING */}
-      <section className="relative bg-[#FFA500] text-white pt-32 pb-40 mt-[-1px] overflow-hidden">
+{/* 3. SEZIONE ARANCIONE: SPECIALITÀ, PRIVÈ E CATERING */}
+      <section className="relative bg-[#FFA500] text-white py-24">
         
-        {/* Onda Superiore - Pennellata fluida */}
-        <div className="absolute top-0 left-0 w-full overflow-hidden leading-[0] z-20">
-          <svg className="relative block w-[calc(160%+1.3px)] h-[80px] md:h-[150px]" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M0,0V30c150,100,350,100,500,0S850-70,1200,30V0Z" fill="#FFFFFF"></path>
-          </svg>
-        </div>
-
         <div className="container mx-auto px-4 max-w-6xl relative z-10">
           <h2 className="text-5xl md:text-6xl font-serif italic text-center mb-20 tracking-tight">
             Le Nostre specialità
@@ -108,7 +101,7 @@ export default function InformazioniPage() {
               <h3 className="text-4xl font-bold italic font-serif">Privè</h3>
               <p className="text-lg opacity-95 leading-relaxed">
                 La nostra sala privè Tulipano è perfetta per chi cerca un ambiente riservato e raffinato dove festeggiare 
-                occasioni speciali come compleanni, lauree, battesimi, cresimi e altri eventi privati. La sala è interamente 
+                occasione speciali come compleanni, lauree, battesimi, cresimi e altri eventi privati. La sala è interamente 
                 riservabile e offre un’esperienza esclusiva grazie al servizio personalizzato che include un cameriere 
                 dedicato solo agli ospiti della sala, un menù personalizzato e decorazioni su misura.
               </p>
@@ -133,13 +126,6 @@ export default function InformazioniPage() {
               </div>
             </div>
           </div>
-        </div>
-
-        {/* Onda Inferiore */}
-        <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-[0]">
-          <svg className="relative block w-[calc(160%+1.3px)] h-[80px] md:h-[150px] rotate-180" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M0,0V30c150,100,350,100,500,0S850-70,1200,30V0Z" fill="#FFFFFF"></path>
-          </svg>
         </div>
       </section>
 
