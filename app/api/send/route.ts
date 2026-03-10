@@ -1,7 +1,8 @@
+export const dynamic = 'force-dynamic'; // Aggiungi questa riga
+
 import { Resend } from 'resend';
 import { NextResponse } from 'next/server';
 
-// Inizializziamo Resend con la chiave che hai nel file .env.local
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(request: Request) {
