@@ -56,7 +56,7 @@ export default function Home() {
         {/* Testi e Pulsanti (Invariati come richiesto) */}
         <div className="relative z-20 px-4">
           <h1 className="text-5xl md:text-7xl font-serif mb-4 drop-shadow-lg tracking-tight">
-            Benvenuti al Tulipano
+            Benvenuti al Tulipanop
           </h1>
           <div className="flex flex-col md:flex-row gap-4 justify-center mt-8">
             <button className="bg-[#800020] hover:bg-[#600018] text-white px-8 py-3 rounded-sm font-bold transition uppercase tracking-widest shadow-lg">
