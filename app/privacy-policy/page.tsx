@@ -33,7 +33,7 @@ export default function PrivacyPolicy() {
           <h2 style={h2Style}>2. Titolare del Trattamento</h2>
           <p style={pStyle}>
             Il titolare del trattamento è <strong>Enjoy SRL</strong>, con sede legale in Via A. Moro Interna, 1R, 41012 Carpi (MO). 
-            Per qualsiasi domanda, puoi contattarci all'indirizzo email del ristorante o telefonicamente.
+            Per qualsiasi domanda, puoi contattarci all'indirizzo email: ristorantetulipanocarpi@gmail.com del ristorante o telefonicamente.
           </p>
         </section>
 
