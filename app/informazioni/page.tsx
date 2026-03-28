@@ -139,17 +139,17 @@ export default function InformazioniPage() {
 
           <div className="space-y-24">
             
-            {/* Locale 1: Vecchia Limidi */}
+            {/* Locale 1: Carpi */}
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="space-y-6">
-                <h3 className="text-4xl font-bold text-[#333333]">Il Tulipano Vecchia Limidi</h3>
+                <h3 className="text-4xl font-bold text-[#333333]">Il Tulipano Carpi</h3>
                 <div className="space-y-3 text-gray-600">
                   <p className="flex items-center gap-3">
-                    <span className="text-[#800020]">📍</span> Via Limidi 1087 - 41019 Soliera (MO) - 
+                    <span className="text-[#800020]">📍</span> Via A. Moro Interna, 1R, 41012 Carpi MO - 
                     <Link href="#" className="underline ml-1">Vai alle indicazioni stradali</Link>
                   </p>
                   <p className="flex items-center gap-3">
-                    <span className="text-[#800020]">📞</span> Numero di telefono - 059 566708
+                    <span className="text-[#800020]">📞</span> Numero di telefono - 059 9110390
                   </p>
                   <p className="flex items-center gap-3">
                     <span className="text-[#800020]">📶</span> Accesso libero al Wifi
@@ -160,7 +160,7 @@ export default function InformazioniPage() {
                     <div className="w-10 h-10 bg-[#3b5998] rounded flex items-center justify-center text-white">FB</div>
                     <div className="w-10 h-10 bg-[#e4405f] rounded flex items-center justify-center text-white">IG</div>
                   </div>
-                  <Link href="https://iltulipanovecchialimidi.it" target="_blank">
+                  <Link href="https://iltulipanocarpi.it" target="_blank">
                     <button className="bg-[#800020] hover:bg-[#600018] text-white px-8 py-3 rounded font-medium flex items-center gap-2 transition-colors">
                       Vai al Sito Web <span className="text-lg">›</span>
                     </button>
@@ -170,7 +170,7 @@ export default function InformazioniPage() {
               <div className="relative h-[350px] rounded-sm overflow-hidden shadow-lg">
                 <Image 
                   src="/tulipanolimidi-insegna.webp" // Sostituisci con l'immagine corretta se disponibile
-                  alt="Il Tulipano Vecchia Limidi"
+                  alt="Il Tulipano Carpi"
                   fill
                   className="object-cover"
                 />

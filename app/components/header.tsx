@@ -95,9 +95,9 @@ export default function Header() {
 
           {/* 3. AZIONI (Destra - Telefono e Prenota) */}
           <div className="hidden lg:flex" style={{ flex: '1', justifyContent: 'flex-end', alignItems: 'center', gap: '20px' }}>
-            <a href="tel:0599110390" style={{ color: mattone, display: 'flex', alignItems: 'center', gap: '8px', textDecoration: 'none', fontSize: '14px', fontWeight: '700' }}>
+            <a href="tel:059566708" style={{ color: mattone, display: 'flex', alignItems: 'center', gap: '8px', textDecoration: 'none', fontSize: '14px', fontWeight: '700' }}>
               <Phone size={18} />
-              <span>059 911 0390</span>
+              <span>059 566 708</span>
             </a>
             <Link href="/prenota-un-tavolo" style={{ 
               backgroundColor: mattone, 
