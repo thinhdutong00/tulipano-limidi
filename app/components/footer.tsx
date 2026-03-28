@@ -38,7 +38,7 @@ export default function Footer() {
               <p style={{ color: '#6b7280', margin: 0 }}>41012 Carpi (MO)</p>
             </div>
             <Link 
-              href="https://www.google.com/maps" 
+              href="https://maps.app.goo.gl/TF4vnrge7dmfWR6m6" 
               target="_blank" 
               style={{ 
                 color: mattone, 
