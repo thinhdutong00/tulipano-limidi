@@ -40,8 +40,8 @@ export default function InformazioniPage() {
         </div>
       </section>
 
-{/* 3. SEZIONE ARANCIONE: SPECIALITÀ, PRIVÈ E CATERING */}
-      <section className="relative bg-[#FFA500] text-white py-24">
+{/* 3. SEZIONE: SPECIALITÀ E MENÙ */}
+      <section className="relative bg-[#820f1e] text-white py-24">
         
         <div className="container mx-auto px-4 max-w-6xl relative z-10">
           <h2 className="text-5xl md:text-6xl font-serif italic text-center mb-20 tracking-tight">
@@ -77,7 +77,7 @@ export default function InformazioniPage() {
           </div>
 
           {/* BOX CTA MENÙ */}
-          <div className="relative w-full max-w-4xl mx-auto h-[400px] mb-24 rounded-sm overflow-hidden shadow-2xl group">
+          <div className="relative w-full max-w-4xl mx-auto h-[400px] rounded-sm overflow-hidden shadow-2xl group">
             <Image 
               src="/filetto-di-carne-alla-griglia-tulipano.webp" 
               alt="Guarda il menù"
@@ -91,39 +91,6 @@ export default function InformazioniPage() {
                   Vai Al Menù
                 </button>
               </Link>
-            </div>
-          </div>
-
-          {/* PRIVÈ E CATERING */}
-          <div className="max-w-4xl mx-auto space-y-20">
-            {/* Blocco Privè */}
-            <div className="space-y-6">
-              <h3 className="text-4xl font-bold italic font-serif">Privè</h3>
-              <p className="text-lg opacity-95 leading-relaxed">
-                La nostra sala privè Tulipano è perfetta per chi cerca un ambiente riservato e raffinato dove festeggiare 
-                occasione speciali come compleanni, lauree, battesimi, cresimi e altri eventi privati. La sala è interamente 
-                riservabile e offre un’esperienza esclusiva grazie al servizio personalizzato che include un cameriere 
-                dedicato solo agli ospiti della sala, un menù personalizzato e decorazioni su misura.
-              </p>
-              <div className="pt-4 border-t border-white/20">
-                <p className="text-sm uppercase tracking-widest opacity-80">Per maggiori informazioni e prenotazioni:</p>
-                <p className="text-xl font-bold mt-1">059 9110390 – ristorantetulipanocarpi@gmail.com</p>
-              </div>
-            </div>
-
-            {/* Blocco Catering */}
-            <div className="space-y-6">
-              <h3 className="text-4xl font-bold italic font-serif">Catering</h3>
-              <p className="text-lg opacity-95 leading-relaxed">
-                Il Tulipano offre anche il servizio di catering per eventi in loco o in esterna. Il nostro catering garantisce 
-                piatti preparati con ingredienti freschi e selezionati su misura. Il menù può essere personalizzato per ogni 
-                tipo di evento, accompagnato dalla professionalità del nostro staff sempre pronto a curare ogni aspetto, 
-                dall’allestimento alla preparazione dei piatti.
-              </p>
-              <div className="pt-4 border-t border-white/20">
-                <p className="text-sm uppercase tracking-widest opacity-80">Per maggiori informazioni e prenotazioni:</p>
-                <p className="text-xl font-bold mt-1">059 9110390 – ristorantetulipanocarpi@gmail.com</p>
-              </div>
             </div>
           </div>
         </div>
