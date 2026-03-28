@@ -9,7 +9,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-export default function MenuPage() {
+export default function MenufestePage() {
   // Array temporaneo con le immagini che hai già nella cartella public
   // Quando avrai le immagini del menu, sostituisci questi nomi
   const tempImages = [
