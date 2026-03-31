@@ -31,10 +31,10 @@ export default function InformazioniPage() {
           </h2>
           <div className="grid md:grid-cols-2 gap-12 text-gray-600 text-left text-lg leading-relaxed">
             <p>
-              Il Tulipano, nato a Carpi nel 2010, è situato a due passi dal centro storico della città in via Aldo Moro Interna 1R, vicino allo stadio di Carpi. Da noi troverete un’atmosfera calda e accogliente, quasi famigliare. Ogni dettaglio del nostro ristorante è stato pensato per rendere ancora più piacevole la vostra esperienza e per farvi godere ogni attimo passato insieme a noi. La specialità del Tulipano è sicuramente la pizza ma non
+              Il Tulipano di Limidi, parte del nostro gruppo nato a Carpi nel 2010, vi accoglie in una splendida struttura rustica situata in una posizione facile da raggiungere. Da noi troverete un’atmosfera calda e curata, perfetta per sentirsi a casa fin dal primo istante. Ogni dettaglio del nostro ristorante, che si sviluppa su due piani, è stato pensato per rendere piacevole la vostra esperienza e per farvi godere ogni attimo passato insieme a noi, garantendo massima comodità grazie anche all'ampio parcheggio privato riservato ai clienti.
             </p>
             <p>
-              mancano di certo le proposte a base di pesce e i piatti tradizionali emiliani. A pranzo inoltre potrete sperimentare il nostro menù del giorno, perfetto per chi ha una pausa pranzo breve ma senza rinunciare al gusto di un buon pasto.  Al Tulipano verrete accolti con un sorriso e professionalità e potrete scegliere se accomodarvi nella nostra sala principale o nel nostro dehor, riscaldato in inverno e fresco d’estate.
+              La specialità del Tulipano resta la nostra pizza, ma non mancano proposte ricercate a base di pesce e i grandi classici della tradizione emiliana. A pranzo potrete sperimentare il menù del giorno, ideale per chi cerca una pausa veloce senza rinunciare alla qualità di un pasto genuino. Sarete sempre accolti con il sorriso e potrete scegliere se accomodarvi nelle nostre sale interne, distribuite tra piano terra e primo piano, o nel nostro spazio estivo esterno, perfetto per cenare all'aria aperta durante le calde serate della bella stagione.
             </p>
           </div>
         </div>
