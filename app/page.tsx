@@ -6,11 +6,11 @@ export default function Home() {
   // Lista delle tue foto reali caricate su VS Code
   const slides = [
     "/esterno-tulipano-limidi.jpg",
-    "/pizza-margherita-con-basilico-tulipano.webp",
-    "/filetto-di-carne-alla-griglia-tulipano.webp",
-    "/scaffale-dei-vini-tulipano.webp",
+    "/pomodori-porcini.jpg",
+    "/tavolo-35.jpg",
+    "/hamburger-patatine.jpg",
     "/tavolo-con-tovaglia-tulipano.webp",
-    "/lampade-soffitto-tulipano.webp"
+    "/interno-primo-piano.jpg"
    
   ];
 
