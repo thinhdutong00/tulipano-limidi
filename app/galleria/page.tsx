@@ -6,10 +6,10 @@ export default function GalleriaPage() {
   // Sostituisci i percorsi quando carichi le nuove foto in public/
   const galleriaImages = [
     { src: "/pizza-margherita-con-basilico-tulipano.webp", size: "md:col-span-2 md:row-span-2" },
-    { src: "/riso-cavolo-rosso-6.webp", size: "" },
+    { src: "/tonno-impanato.jpg", size: "" },
     { src: "/insalata-di-mare-10.webp", size: "" },
     { src: "/tortellini-brodo.webp", size: "md:row-span-2" },
-    { src: "/tenerina-2.webp", size: "md:col-span-2" },
+    { src: "/tortellini.jpeg", size: "md:col-span-2" },
     { src: "/tulipano-limidi-esterno.jpg", size: "" },
     { src: "/", size: "" },
     // Da qui in poi usiamo placeholder o ripetizioni che sostituirai tu
@@ -21,7 +21,7 @@ export default function GalleriaPage() {
     { src: "/gnocco2.webp", size: "md:row-span-2" },
     { src: "/pomodoribasilico.webp", size: "" },
     { src: "/bruschetta3.webp", size: "" },
-    { src: "/vinoservito.webp", size: "md:col-span-2" },
+    { src: "/pizza-limidi.jpg", size: "md:col-span-2" },
     { src: "/tagliatalimone.webp", size: "" },
     { src: "/", size: "" },
     { src: "/tavolo-con-tovaglia-tulipano.webp", size: "" },
