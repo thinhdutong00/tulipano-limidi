@@ -46,7 +46,7 @@ export default function RootLayout() {
                 color: '#777',
               }}
             >
-              Tulipano Fossoli
+              Tulipano Limidi
             </p>
 
             <h1
