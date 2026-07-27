@@ -1,78 +1,56 @@
-import './globals.css'
+import type { ReactNode } from "react";
+import "./globals.css";
 
-export const metadata = {
-  title: 'Torneremo presto',
-  description: 'Sito temporaneamente in manutenzione',
-  robots: {
-    index: false,
-    follow: false,
-  },
-}
+const SITO_IN_MANUTENZIONE = true;
 
-export default function RootLayout() {
-  return (
-    <html lang="it">
-      <body>
-        <main
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: ReactNode;
+}>) {
+  if (SITO_IN_MANUTENZIONE) {
+    return (
+      <html lang="it">
+        <body
           style={{
-            minHeight: '100vh',
             margin: 0,
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            background: '#f7f7f7',
-            color: '#1d1d1d',
-            fontFamily: 'Arial, sans-serif',
-            padding: '24px',
+            width: "100%",
+            minHeight: "100vh",
+            overflow: "hidden",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            backgroundColor: "#ffffff",
+            color: "#111111",
+            fontFamily: "Arial, Helvetica, sans-serif",
           }}
         >
-          <section
+          <main
             style={{
-              maxWidth: '620px',
-              width: '100%',
-              background: '#ffffff',
-              borderRadius: '20px',
-              padding: '48px 32px',
-              textAlign: 'center',
-              boxShadow: '0 20px 60px rgba(0, 0, 0, 0.08)',
+              width: "100%",
+              padding: "24px",
+              textAlign: "center",
             }}
           >
-            <p
-              style={{
-                margin: '0 0 12px',
-                fontSize: '14px',
-                letterSpacing: '0.08em',
-                textTransform: 'uppercase',
-                color: '#777',
-              }}
-            >
-              Tulipano Limidi
-            </p>
-
             <h1
               style={{
-                margin: '0 0 16px',
-                fontSize: '40px',
-                lineHeight: '1.1',
-              }}
-            >
-              Torneremo presto
-            </h1>
-
-            <p
-              style={{
                 margin: 0,
-                fontSize: '18px',
-                lineHeight: '1.6',
-                color: '#555',
+                fontSize: "clamp(32px, 6vw, 64px)",
+                lineHeight: 1.1,
+                fontWeight: 700,
               }}
             >
-              Il sito è temporaneamente in manutenzione per un passaggio di
-              gestione. Torneremo online il prima possibile.
-            </p>
-          </section>
-        </main>
-      </body>
+              Sito in manutenzione
+            </h1>
+          </main>
+        </body>
+      </html>
+    );
+  }
+
+  return (
+    <html lang="it">
+      <body>{children}</body>
     </html>
-  )
+  );
 }
